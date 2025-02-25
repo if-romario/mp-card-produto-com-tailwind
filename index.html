@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="min-h-screen flex items-center justify-center bg-gray-400/20 max-sm:m-5"
+  >
+    <div id="card" class="max-w-sm rounded-lg overflow-hidden">
+      <img
+        src="./assets/nike-air-max-90.jpg"
+        class="object-cover w-full"
+        alt="Imagem do produto"
+      />
+      <div id="content" class="max-w-sm sm:space-y-6 space-y-3 bg-white p-6">
+        <h1 class="font-bold text-black text-2xl sm:text-4xl">
+          Nike air Max 90
+        </h1>
+        <p class="text-black sm:text-xl text-base font-medium">
+          Eleve seu estilo com o clássico reinventado. Conforto supremo encontra
+          design inovador
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <img src="./assets/start.svg" />
+          <img src="./assets/start.svg" />
+          <img src="./assets/start.svg" />
+          <img src="./assets/start.svg" />
+          <img src="./assets/half-start.svg" />
+          <span class="text-[#6E6E6E] text-xl font-normal"
+            >4.8 (42 avaliações)</span
+          >
+        </div>
+        <div
+          class="flex items-center justify-between max-sm:flex-wrap max-sm:gap-2"
+        >
+          <span class="text-sky-600 font-bold sm:text-4xl text-2xl"
+            >R$ 899,00</span
+          >
+          <button
+            class="cursor-pointer font-semibold text-sm text-white py-2 px-4 bg-linear-90 from-sky-500 to-sky-500/50 rounded-full text-balance hover:scale-105 transition max-sm:w-full"
+          >
+            Comprar agora
+          </button>
+        </div>
+        <div class="flex items-center gap-3 max-sm:mt-6">
+          <img src="./assets/truck.svg" alt="Ícone de caminhão" />
+          <span class="text-neutral-500 text-sm font-medium"
+            >Frete grátis para todo o Brasil</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
